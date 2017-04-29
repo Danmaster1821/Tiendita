@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cuadro_prron{
+	position: relative;
+	width: 200px;
+	background-color: black;
+	padding: 20px 10px 20px 10px;
+	border: 10px solid blue;
+	margin: auto;
+	text-align: center;
+}
+
+.cuadro_mini{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.cuadro_mini_2{
+	position: relative;
+    top: 5px;
+	right: 0;
+	height: 150px;
+	background-color: yellow;
+}
